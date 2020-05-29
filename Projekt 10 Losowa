@@ -1,0 +1,24 @@
+#include <iostream>
+#include <cstdlib>
+#include <ctime>
+#include <fstream>
+using namespace std;
+
+srand( time( NULL ) );
+rand() %10;
+
+ofstream wyjscie;
+wyjście.open("out.json");
+
+
+int main(int argc, char** argv) {
+
+  cout<<  Wypisz Liczbe Losowa(10);
+  cout<< Wypisz Liczbe JSON(12);
+  
+  wyjscie <<"Wypisz Liczbe JSON";
+  wejscie.close();
+  wyjscie.close();
+
+	return 0;
+}
